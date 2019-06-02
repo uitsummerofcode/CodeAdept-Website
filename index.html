@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/codeadept-logo.png" type="png" sizes="30x30">
+	<title>CodeAdept|2.0</title>
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/codeAcss.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main123.cs">
+    
+     <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+<body>
+
+	<header>
+
+        <div class="top-header">
+
+            <div class="logo animated slideInDown">
+              
+          
+            </div>
+        
+            <div class="heading-div">
+
+            <h2 class="animated slideInDown">Department Of Information Technology</h2>
+            <h3 class="animated slideInDown">University Institute Of Technology</h3>
+            <a href="https://www.freepik.com/free-vector/black-background-in-geometric-style_800590.htm" style="font-size: 1px; color:transparent; max-width: 0.5px;
+
+max-height: 0.5px;">Designed by Freepik</a>
+            </div>
+            
+        </div>
+        
+		<nav>
+            
+            
+            
+			            
+			<div class="row clearfix">
+				
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+                    <li class="menu-li" id="menu-li-1"><a href="register.html"><b>REGISTER</b> </a></li>
+					<li class="menu-li"><a href="codeadept17.html"><b>CODE ADEPT'17<b></a></li>
+                        <li class="menu-li"><a href="guidlines.html"><b>GUIDELINES </b></a></li>
+					<li class="menu-li"><a href="contact.html"><b>CONTACT US</b></a></li>
+				</ul>
+				<a href="#" class="mobile-icon"  onclick ="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+            
+            
+		</nav>
+        
+        
+
+              <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/DoIT.CodeAdept/"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/CodeadeptD"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            
+          
+        </ul> <!-- end home-social -->
+
+             <div class="home-content__scroll">
+                <a style="text-decoration: none;" href="#" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+
+
+         <div class="main-nav animated slideInDown" id="search-box">
+                
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
+		<div class="main-content-header">
+          
+			<h1 class=" animated slideInUp delay-2s""> C<span style="color: " >O</span>DE <span class="colorchange">2.O</span><br>
+				ADEPT </h1>
+			<a href="codeadept17.html" class="btn btn-1 animated slideInUp"> CodeAdept'17</a>
+			<a href="register.html" class="btn btn-2 animated slideInUp"> Register </a>
+		</div>
+	</header>
+
+        
+        <div class="container1">
+         
+            <div class="count animated slideInUp ">
+                <div class="countd">
+                    <span id="days">00</span>
+                    DAYS
+                </div>
+            <div class="countd animated slideInUp">
+                    <span id="hours">00</span>
+                    HOURS
+                </div>
+    <div class="countd animated slideInUp">
+                    <span id="minutes">00</span>
+                    MINUTES
+                </div>
+    <div class="countd animated slideInUp">
+                    <span id="seconds">00</span>
+                    SECONDS
+                </div>
+            </div>
+    
+   
+    
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+    
+    <script type="text/javascript">
+        
+        var count = new Date("Oct 08,2018 10:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var d = count - now;
+            
+            var days = Math.floor(d/(1000*60*60*24));
+             var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+             var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+             var seconds = Math.floor((d%(1000*60))/1000);
+            
+            
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+            
+            
+            if(d <= 0)
+                {
+clearInterval(x);}
+        },1000);
+        </script>
+
+
+
+
+
+
+
+</body>
+</html>

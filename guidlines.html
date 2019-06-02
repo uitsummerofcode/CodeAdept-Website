@@ -1,0 +1,187 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="icon" href="images/capture.jpg" type="png" sizes="20x20">
+      <title>Codeadept-guidlines</title>
+
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+        <link rel="stylesheet" href="css/guidlines-css.css">
+     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- script
+   
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <style type="text/css">
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body style="
+
+   width: 100%;
+  height: 100%;
+  background-image: url('./images/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;" 
+>
+
+
+
+<div class="guidlines-div">
+
+                <div class="guidlines-head">
+                  <a href="index.html"> <img class="codeadept-logo-css" src="images/codeadept-logo.png"></a>
+
+           <h1 class="guidlines-head-h1">
+            
+           </h1>    
+</div>
+  
+ <button class="guidlines-btn"  onclick="slideshow()" ><p id="text-content" style="line-height: 134%;
+
+position: relative;
+
+right: 4%;">Click Here For Instruction</p> <i class="material-icons">arrow_forward</i></button>
+
+<div id="guidlines-left-div">
+
+  <p class="left-content">
+<strong>Features:</strong><br>
+Get qualification <span style="color: red" ><b>certificate</b></span>.<br>
+Get expeditious prelude of the changing scenario of recruitment.<br>
+Chance to win exciting <span style="color: red" ><b>prizes</b></span>.<br><br>
+<strong>Prerequisites:</strong><br>
+Basic knowledge of aptitude and logical reasoning and 
+Basic knowledge of C or C++ orJAVA or python.<br><br>
+<strong>All about quiz: </strong><br>
+
+    ROUND 1: This round will contain aptitude question and technical questions.<strong>(No language specification)</strong><br>
+There will be 30 question that must be solved in <span style="color: red" ><b>30 minutes</b></span>. The qualified participants will
+get a qualification certificate.<br><br>
+ROUND 2: The participants <span style="color: red" ><b>qualifying first round</b></span> will be eligible for this round.This round will contain 40 questions that must be solved within <span style="color: red" ><b>45 minutes</b></span>.<br>
+The question will be based on technical, coding and Debugging.<br><br>
+ROUND 3: The participants <span style="color: red" ><b>qualifying second round</b></span> will be eligible for this round.In this round, the selected participants must implement <span style="color: red" ><b>a code</b></span> based on real life problem
+given, in the their comfortable language (C,C++,Java and python) <br> This
+round will have only <span style="color: red" ><b>3 questions</b></span> that should be solved within 1.5 hours.<br> <br>
+
+</p>
+</div>
+<div id="guidlines-right-div" class="slide-in">
+ 
+ <p class="right-content">
+
+
+<ul class="right-content">
+  <li type="circle">On the <span style="color: red" ><b>First day, Oct 8<sup>th</sup></b></span>, first two rounds will be conducted and final round will be on  <span style="color: red" ><b>Second day(9<sup>th</sup> Oct)</b></span></li><br>
+  <li type="circle"> Participants will be selected at each round and promoted to next round based on their
+performance. Then <span style="color: red" ><b>top three</b></span> will be the winners and awarded prizes and certificates.</li><br>
+  <li type="circle">Participants will receive participation <span style="color: red" ><b>certificates</b></span> after clearing first round.</li><br>
+  <li type="circle">Then top three participants will be the winners and awarded with encouraging <span style="color: red" ><b>prize money</b></span> and certificates.</li><br>
+</ul>
+   
+
+
+ </p>
+
+
+</div>
+
+
+                        
+                   
+
+</div>
+
+<script type="text/javascript">
+  
+    (function(){
+
+      var parallax = document.querySelectorAll("body"),
+          speed = 0.4;
+
+      window.onscroll = function(){
+        [].slice.call(parallax).forEach(function(el,i){
+
+          var windowYOffset = window.pageYOffset,
+              elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+
+          el.style.backgroundPosition = elBackgrounPos;
+
+        });
+      };
+
+    })();
+
+
+</script>
+
+
+<script type="text/javascript">
+  
+
+  var $slider = document.getElementById('guidlines-right-div');
+var $toggle = document.getElementById('guidlines-btn');
+
+$toggle.addEventListener('click', function() {
+    var isOpen = $slider.classList.contains('slide-in');
+
+    $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+});
+</script>
+
+
+<script type="text/javascript">
+    
+    function slideshow(){
+         
+       var x = document.getElementById('guidlines-right-div');
+        var y = document.getElementById('guidlines-left-div');
+        var z = document.getElementById('text-content');
+
+
+       if(x.style.display === "block"){
+        x.style.display="none";
+        y.style.display="block";
+        z.innerHTML="Click here for Instruction";
+
+
+       }else{
+        x.style.display="block";
+        y.style.display="none";
+        z.innerHTML="Click here for details";
+       }
+    } 
+
+
+
+  </script>
+
+
+
+
+
+
+  </body>
+  </html>
+
+
+
+
+
+  

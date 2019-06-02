@@ -1,0 +1,17 @@
+*
+{
+	
+	background-image: url('images/services-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.guideline-header
+{
+	background: rgba(0,0,0,0.5);
+	height: 23%;
+	margin: 0px;
+	padding: 0px;
+
+}
+

@@ -1,0 +1,502 @@
+
+body{
+  background-attachment: fixed;
+}
+
+.p-code-adept-17
+{
+  color: white;
+  font-family: 'century gothic',sans-serif;
+      font-size: 14px;
+      text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+
+.winner-names{
+  color: white;
+  font-family: 'century gothic',sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    animation-duration: 60s;
+
+}
+#myMainVideo{
+        float: left;
+    position: relative;
+    /* left: 78px; */
+    /* width: 56%; */
+    /* padding: 1%; */
+    height: 595px;
+    background: rgba(0,0,0,0.5);
+    width: 59%;
+    padding-left: 5%;
+    margin-left: 1%;
+    
+}
+section{
+  background-color: rgba(0,0,0,0.6);
+}
+
+.home-content {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+.home-content h1 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 0;
+  color: #FFFFFF;
+}
+
+.home-content__main {
+     padding-right: 2%;
+    position: relative;
+    max-width: 30.5%;
+    float: right;
+    
+    margin-left: 5px;
+    padding-left: 1.9%;
+    background-color: rgba(0,0,0,0.5);
+    height: 95%;
+   
+}
+
+.home-content__button {
+  margin-top: 6rem;
+}
+
+.home-content__button .btn {
+  margin-right: 0;
+}
+
+.g-btn-1{
+ 
+
+        float: right;
+    top: 50%;
+    position: relative;
+    right: 3%;
+    border: 2px solid red;
+    width: 25%;
+    height: 10%;
+    font-size: 15px;
+    border-radius: 72px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'economica',sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 190%;
+    padding-bottom: -8%;
+    padding-bottom: 0%;
+    margin: -3%;
+    align-self: center
+}
+
+.btn-1:hover{
+  background-color: rgba(0,0,0,0.8) ;
+    color:  #2ecc71;
+    transition: 0.7s;
+}
+
+
+
+/*/////////// responsive  work /////////*/
+
+@media only screen and (max-width: 1180px)   /*//////////////////////////////////////////////////// 1 1 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  
+
+  body{
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  .p-code-adept-17 {
+    color: white;
+    font-family: 'century gothic',sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.home-content h1{
+      font-family: 'century gothic';
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: -8.5;
+    margin-top: 4%;
+    height: 6px;
+}
+.g-btn-1{
+      float: center;
+    top: 16%;
+    position: relative;
+    border: 2px solid red;
+    width: -23px;
+    height: 34px;
+    font-size: 18px;
+    border-radius: 72px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'economica',sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 190%;
+    padding-bottom: -8%;
+    margin: -3%;
+    color: red;
+    border: 0px;
+    align-self: left;
+    bottom: 15px;
+}
+.winner-names {
+  font-size: 11px;
+}
+.home-content h1 {
+  font-size: 16px;
+}
+  .home-content{
+    display: contents;
+  }
+
+  #myMainVideo {
+    /* float: left; */
+    position: relative;
+    /* left: 78px; */
+    /* width: 56%; */
+    /* padding: 1%; */
+    height: 432px;
+    background: rgba(0,0,0,0.5);
+    width: 94%;
+    padding-left: 4%;
+    margin-left: 1%;
+    top: -15px}
+
+    .home-content__main {
+    padding-right: 2%;
+    position: relative;
+    max-width: 97.5%;
+    /* float: right; */
+    margin-left: 5px;
+    padding-left: 3.9%;
+    background-color: rgba(0,0,0,0.5);
+    height: 33%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 667px)  /*//////////////////////////////////////////////////// 6 6 7 px ///////////////////////////////////////////////////////////*/
+{
+  body{
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  .p-code-adept-17 {
+    color: white;
+    font-family: 'century gothic',sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.home-content h1{
+      font-family: 'century gothic';
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: -8.5;
+    margin-top: 4%;
+    height: 6px;
+}
+.g-btn-1{
+      float: center;
+    top: 16%;
+    position: relative;
+    border: 2px solid red;
+    width: -23px;
+    height: 34px;
+    font-size: 18px;
+    border-radius: 72px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'economica',sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 190%;
+    padding-bottom: -8%;
+    margin: -3%;
+    color: red;
+    border: 0px;
+    align-self: left;
+    bottom: 15px;
+}
+.winner-names {
+  font-size: 11px;
+}
+.home-content h1 {
+  font-size: 16px;
+}
+  .home-content{
+    display: contents;
+  }
+
+  #myMainVideo {
+    /* float: left; */
+    position: relative;
+    /* left: 78px; */
+    /* width: 56%; */
+    /* padding: 1%; */
+    height: 432px;
+    background: rgba(0,0,0,0.5);
+    width: 94%;
+    padding-left: 4%;
+    margin-left: 1%;
+    top: -15px}
+
+    .home-content__main {
+    padding-right: 2%;
+    position: relative;
+    max-width: 97.5%;
+    /* float: right; */
+    margin-left: 5px;
+    padding-left: 3.9%;
+    background-color: rgba(0,0,0,0.5);
+    height: 33%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px)  /*//////////////////////////////////////////////////// 7 6 8 px ///////////////////////////////////////////////////////////*/
+
+{
+  body{
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .home-content{
+    display: contents;
+  }
+  .p-code-adept-17 {
+    color: white;
+    font-family: 'century gothic',sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.winner-names {
+  font-size: 11px;
+}
+#myMainVideo {
+    /* float: left; */
+    position: relative;
+    /* left: 78px; */
+    /* width: 56%; */
+    /* padding: 1%; */
+    height: 432px;
+    background: rgba(0,0,0,0.5);
+    width: 94%;
+    padding-left: 4%;
+    margin-left: 1%;
+    top: -15px}
+    .home-content h1 {
+  font-size: 16px;
+}
+.home-content h1{
+      font-family: 'century gothic';
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: -8.5;
+    margin-top: 4%;
+    height: 6px;
+}
+.g-btn-1{
+      float: center;
+    top: 16%;
+    position: relative;
+    border: 2px solid red;
+    width: -23px;
+    height: 34px;
+    font-size: 18px;
+    border-radius: 72px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'economica',sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 190%;
+    padding-bottom: -8%;
+    margin: -3%;
+    color: red;
+    border: 0px;
+    align-self: left;
+    bottom: 15px;
+}
+    .home-content__main {
+    padding-right: 2%;
+    position: relative;
+    max-width: 97.5%;
+    /* float: right; */
+    margin-left: 5px;
+    padding-left: 3.9%;
+    background-color: rgba(0,0,0,0.5);
+    height: 33%;}
+}
+
+
+
+@media only screen and (max-width: 667px)  /*//////////////////////////////////////////////////// 6 6 7 px ///////////////////////////////////////////////////////////*/
+{
+  body{
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  .p-code-adept-17 {
+    color: white;
+    font-family: 'century gothic',sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.home-content h1{
+      font-family: 'century gothic';
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: -8.5;
+    margin-top: 4%;
+    height: 6px;
+}
+.g-btn-1{
+      float: center;
+    top: 16%;
+    position: relative;
+    border: 2px solid red;
+    width: -23px;
+    height: 34px;
+    font-size: 18px;
+    border-radius: 72px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'economica',sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 190%;
+    padding-bottom: -8%;
+    margin: -3%;
+    color: red;
+    border: 0px;
+    align-self: left;
+    bottom: 15px;
+}
+.winner-names {
+  font-size: 11px;
+}
+.home-content h1 {
+  font-size: 16px;
+}
+  .home-content{
+    display: contents;
+  }
+
+  #myMainVideo {
+    /* float: left; */
+    position: relative;
+    /* left: 78px; */
+    /* width: 56%; */
+    /* padding: 1%; */
+    height: 432px;
+    background: rgba(0,0,0,0.5);
+    width: 94%;
+    padding-left: 4%;
+    margin-left: 1%;
+    top: -15px}
+
+    .home-content__main {
+    padding-right: 2%;
+    position: relative;
+    max-width: 97.5%;
+    /* float: right; */
+    margin-left: 5px;
+    padding-left: 3.9%;
+    background-color: rgba(0,0,0,0.5);
+    height: 33%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  
+}

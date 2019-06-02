@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="images/codeadept-logo.png" type="png" sizes="30x30">
+	<title>Register | Code Adept 2.O</title>
+	<link rel="stylesheet" type="text/css" href="./css/regcss.css">
+    
+    
+
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-image: url(./images/bbbb.jpg); background-size: cover; background-repeat: no-repeat;">
+<div class="vvvv">
+   <i class="material-icons" id="xx55">account_circle</i></div>
+
+    <form class="box" action="register.php" method="POST" onsubmit="validate()">
+         <div class="login-div">
+             <div class="div-temp-login">
+        <h1 class="main-nav animated slideInDown" id="h1-login">Register</h1>
+        <input id="x1" type="text" style="     width: 52%;" name="first" placeholder="First Name" required>
+                 <input id="x2" type="text" style=" width: 52%;
+   " name="last" placeholder="Last Name">
+                 <input id="xx12" type="number" style="    width: 54%;" name="number" placeholder="Phone Number" required>
+                 <input  id="xx12" type="email" style="    width: 54%;" name="email" placeholder="E-Mail address" required>
+                 <input  id="xx12" type="text" style="    width: 54%;" name="username" placeholder="Enrollment No" required>
+                 <input  id="xx12" type="password"  style="    width: 54%;" name="password" placeholder="Password" required>
+                <select id="abc"  style="display: inline-block;     width: 27%;" name="semester" required>
+  <option value="">Semester</option>
+  <option value="One">One</option>
+  <option value="Two">Two</option>
+  <option value="Three">Third</option>
+                    <option value="four">Four</option>
+                    <option value="five">Five</option>
+                    <option value="six">Six</option>
+                    <option value="seven">Seven</option>
+                    <option value="eight">Eight</option>
+</select>
+                  <select id="def" style="display: inline-block;width: 27%;" name="branch" required>
+  <option value="">Branch</option>
+  <option value="it">IT  - Information Technology</option>
+  <option value="cs">CSE - Computer Science</option>
+  <option value="ec">EC  - Electronics Communication</option>
+                    <option value="me">ME  - Mechanical Engg</option>
+                    <option value="ce">CE  - Civil Engg</option>
+                    <option value="pct">PCT - Petrochemical Engg</option>
+                    <option value="auto">AUTO - Automobile Engg</option>
+                    <option value="ex">EE  - Electrical Engg</option>
+                     <option value="ex">MCA - Master in Computer Application</option>
+</select>
+                 <div class="xxx">
+                 <label>Male</label><input type="radio" name="gender" value="male" checked>
+                  <label>Female</label><input type="radio" name="gender" value="female">
+                  
+                 </div>
+                <input class="reg-btn" type="submit" name="" value="Register Here">
+                <a href="index.html" style="text-decoration: none; "><h2 id="xx145">Back to home</h2>
+              </div>
+    </form>
+   
+    </div>
+    </body>
+    <script type="text/javascript">
+      function validate() {
+        var f=document.getElementById('abc').value;
+        if(f=="abc")
+        {
+          alert("Please fill in the semester");
+          return false;
+        }
+        else
+        {
+          return true;
+        }
+
+        var f=document.getElementById('def').value;
+        if(f=="def")
+        {
+          alert("Please fill in the branch");
+          return false;
+        }
+        else
+        {
+          return true;
+        }
+
+      }
+    </script>
+</html>

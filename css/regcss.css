@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+   
+height: auto;
+width: auto;
+    background-size: cover;
+	background-repeat: no-repeat;
+	
+    
+}
+.box input[type="radio"]{
+    display: table-row;
+    color: white;
+    text-decoration-color: black;
+}
+#xx145{
+  font-size: 16px;
+  font-family: century gothic;
+  font-weight: bolder;
+}
+#xx145:hover{
+  color: firebrick;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"],.box input[type="number"]
+{
+    border: 0;
+    background: none;
+    border-radius: 24px;
+    display: block;margin: 20px auto;
+    text-align: center;border: 2px solid black;
+    color: black;
+    transition: 0.25s;
+    padding: 6px 5px;
+    font-size: 12px;
+    width: 200px;
+
+    outline: none;  font-family: sans-serif;
+}
+
+.box{
+   
+    
+    position: relative;
+        left: 29%;
+   width: 20%;
+   height: 95%;
+  
+    text-align: center;
+   padding-top: -2%;
+}
+
+
+#xx55{
+   position: relative;
+    left: 22%;
+    top: 261px;
+    color: white;
+    font-size: 131px;
+    display: inline-block;
+
+
+}
+#h1-login{
+       color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: century gothic;
+    height: 4px;
+    /* margin: 19px; */
+    padding: 2%;
+}
+h2{
+     color: grey;
+    text-transform: uppercase;
+    font-weight: ;
+    font-family: century gothic;
+    font-size: 16px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color:  #2ecc71;
+}
+.box input[type="submit"]
+{
+          border: 0;
+    background: none;
+    border-radius: 24px;
+    display: block;
+    margin: 22px auto;
+    text-align: center;
+    border: 2px solid black;
+    color: #2ecc71;
+    font-size: 17px;
+    cursor: pointer;
+   
+    align-self: center;
+    font-family: century gothic;
+    font-weight: bolder;
+    transition: 0.25s;
+    padding: 6px 48px;
+    width: 200px;
+    outline: none;
+ 
+    background-size: contain;
+}
+.box input[type="submit"]:hover{
+    background:  black;
+    color:    firebrick;
+}
+.login-div{
+    background: #191919;
+        width: 130%;
+    height: 90%;
+    border: 0px solid #fbf5f5;
+   position: absolute;
+top:0;
+left: 45%;
+    border-radius: 25px;
+   padding: 0px 0px;
+    border: 2px solid ;
+}
+
+.div-temp-login{
+             left: 45%;
+    position: relative;
+    width: 141%;
+    padding: 1px;
+    color: #f9f7f5;
+    background: white;
+    height: 99vh;
+top: -135px;}
+select{
+     border: 0;
+    background: none;
+    border-radius: 24px;
+    display: block;margin: 20px auto;
+    text-align: center;border: 2px solid black;
+    color: black;
+    transition: 0.25s;
+    padding: 5px 6px;
+    font-size: 11px;
+    width: 210px;
+
+    outline: none; 
+}
+select:focus{
+     width: 80%;
+    border-color: #2ecc71;
+}
+
+.forgot-pw{
+   font-family: arial;
+    font-weight: bolder;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.forgot-pw:hover{
+   color: red;
+}
+
+label{
+    font-family: century gothic;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 0px 5px;
+    color: black;
+}
+
+
+   
+    .container input {
+  position: absolute;
+  opacity: 0;
+}
+
+
+
+
+/*/////////// responsive  work /////////*/
+
+@media only screen and (max-width: 1180px)   /*//////////////////////////////////////////////////// 1 1 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 667px)  /*//////////////////////////////////////////////////// 6 6 7 px ///////////////////////////////////////////////////////////*/
+{
+   .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+  }
+  .div-temp-login{
+        left: 45%;
+    position: relative;
+    width: 26vh;
+    padding: 9vh;
+    color: #f9f7f5;
+    background: white;
+    height: 51vh;
+    top: 14vh;
+    left: -15vh;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 768px)  /*//////////////////////////////////////////////////// 7 6 8 px ///////////////////////////////////////////////////////////*/
+
+{
+     .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+  }
+  .div-temp-login{
+        left: 45%;
+    position: relative;
+    width: 26vh;
+    padding: 9vh;
+    color: #f9f7f5;
+    background: white;
+    height: 51vh;
+    top: 14vh;
+    left: -15vh;
+  }
+   
+}
+ 
+
+@media only screen and (max-width: 667px)  /*//////////////////////////////////////////////////// 6 6 7 px ///////////////////////////////////////////////////////////*/
+{
+   .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+
+  }
+  .div-temp-login{
+         left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+    background: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+   #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 13vh;
+    top: -4vh;
+    color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+    #h1-login{
+        height: 0px;
+    margin: 6px;
+     display: none;
+    
+  }
+  select{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+        
+  }
+  .div-temp-login{
+           left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+    background: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+   #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 13vh;
+    top: -4vh;
+    color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+    #h1-login{
+        height: 0px;
+    margin: 6px;
+     display: none;
+    
+  }
+  select{
+    width: 350px;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 370px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+       
+  }
+  .div-temp-login{
+           left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+    background: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+  #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 15vh;
+    top: -4vh;
+    color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+  select{
+    width: 350px;
+  }
+  #h1-login{
+        height: 0px;
+    margin: 6px;
+     display: none;
+   
+  }
+}
+
+
+
+@media only screen and (max-width: 400px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+       
+  }
+  .div-temp-login{
+           left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+    color: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+  #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 17vh;
+    top: -4vh;
+     color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+  select{
+    width: 350px;
+  }
+  #h1-login{
+        height: 0px;
+    margin: 6px;
+     display: none;
+    
+  }
+}
+
+@media only screen and (max-width: 340px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+       
+  }
+  .div-temp-login{
+           left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+    color: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+  #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 14vh;
+    top: -4vh;
+    color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+  select{
+    width: 350px;
+  }
+  #h1-login{
+        height: 0px;
+    margin: 6px;
+     display: none;
+    
+  }
+}
+
+@media only screen and (max-width: 430px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+       
+  }
+  .div-temp-login{
+           left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+     color: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+  #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 19vh;
+    top: -4vh;
+    color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+  select{
+    width: 350px;
+  }
+  #h1-login{
+        height: 0px;
+    margin: 6px;
+     display: none;
+    
+  }
+}
+
+@media only screen and (max-width: 320px) /*//////////////////////////////////////////////////// 4 8 0 px ///////////////////////////////////////////////////////////*/
+{
+  .vvvv{
+    background-image: url(./images/bbbb2.jpg);
+       
+  }
+  .div-temp-login{
+           left: 45%;
+    position: relative;
+    width: 35vh;
+    padding: 6vh;
+    color: #f9f7f5;
+   color: white;
+    height: 72vh;
+    top: -9vh;
+    left: -18vh;
+  }
+  #x1{
+    width: 75px;
+  }
+  #x2{
+    width: 75px;
+  }
+  #xx55{
+        position: relative;
+    left: 14vh;
+    top: -4vh;
+    color: transparent;
+    font-size: 0px;
+    display: inline-block;
+    padding: 2vh;
+    margin: 12px;
+  }
+  select{
+    width: 350px;
+  }
+  #h1-login{
+        height: 0px;
+    margin: 6px;
+   display: none;
+  }
+}
+

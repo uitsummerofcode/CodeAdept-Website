@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+background: #191919;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    
+    bacground: url('../images/clock22.jpg');
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    border-radius: 24px;
+    display: block;margin: 20px auto;
+    text-align: center;border: 2px solid #3498db;
+    color: white;
+    transition: 0.25s;
+    padding: 14px 10px;
+    font-size: 16px;
+    width: 220px;
+    outline: none;  font-family: sans-serif;
+}
+.box{
+   
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: ;
+    text-align: center;
+}
+#h1-login{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    font-family: century gothic;
+}
+h2{
+     color: white;
+    text-transform: uppercase;
+    font-weight: ;
+    font-family: century gothic;
+    font-size: 16px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: red;
+}
+a{
+    text-decoration: none;
+}
+.box input[type="submit"]
+{
+          border: 0;
+    background: none;
+    border-radius: 24px;
+    display: block;
+    margin: 22px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    font-size: 17px;
+    cursor: pointer;
+   
+    align-self: center;
+    font-family: century gothic;
+    font-weight: bolder;
+    transition: 0.25s;
+    padding: 8px 48px;
+    width: 200px;
+    outline: none;
+ 
+    background-size: contain;
+}
+.box input[type="submit"]:hover{
+    background:  skyblue;
+    color:    firebrick;
+}
+.login-div{
+    background:  rgba(0,0,0,0.7);
+        width: 60vh;
+    height: 70vh;
+    border: 0px solid #fbf5f5;
+
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.div-temp-login{
+        left: 50%;
+        top: 50%;
+}
+.forgot-pw{
+   font-family: arial;
+    font-weight: bolder;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.forgot-pw:hover{
+   color: red;
+}
